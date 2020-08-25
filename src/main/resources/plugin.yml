@@ -1,0 +1,24 @@
+name: SkyPunish
+version: 1.0
+api-version: 1.13
+main: pl.gry_skyware.SkyPunish.Main
+commands:
+  kick:
+    usage: /kick <nick> <reason>
+    description: Kick
+    permission: skypunish.kick
+  ban:
+    usage: /ban <nick> <reason>
+    description: Ban
+    permission: skypunish.ban
+  tempban:
+    usage: /tempban <nick> <time> <unit> <reason>
+    description: TempBan
+    permission: skypunish.tempban
+  mute:
+    usage: /mute <nick>
+    description: Mute
+    permission: skypunish.mute
+  tempmute:
+    description: TempMute
+    permission: skypunish.tempmute

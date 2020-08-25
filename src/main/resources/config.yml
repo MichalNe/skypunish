@@ -1,0 +1,11 @@
+DataBase:
+  hostname: "localhost"
+  username: "username"
+  password: "password"
+  database: "database"
+  prefix: "skypunish_"
+
+
+Messages:
+  Repeal: ""
+
